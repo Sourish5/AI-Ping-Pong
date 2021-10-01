@@ -1,0 +1,63 @@
+body {
+    background: url("background1.jpg");
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.headings {
+    color: white;
+    background-color: blue;
+    opacity: 0.5;
+    margin-top: 0px;
+    height: 40px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.headings:hover {
+    font-size: 24px;
+}
+
+.span1 {
+    float: right;
+}
+
+#status {
+    background-color: royalblue;
+    color: seashell;
+}
+
+.div1 {
+    display: inline-block;
+}
+
+#footer1 {
+    bottom: 0;
+    text-align: center;
+    background-color: coral;
+    position: sticky;
+    z-index: 1;
+}
+
+canvas {
+    animation-name: animation1;
+    animation-iteration-count: infinite;
+    animation-duration: 2.32s;
+    animation-direction: alternate-reverse;
+    z-index: 1;
+}
+
+@keyframes animation1 {
+    from {
+        box-shadow: 10px 10px 20px palegreen;
+    }
+
+    to {
+        box-shadow: 10px 10px 20px purple;
+    }
+}
+
+video {
+    padding: 35px;
+    z-index: -1;
+}
